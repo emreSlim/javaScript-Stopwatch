@@ -1,0 +1,178 @@
+html {
+  box-sizing: border-box;
+  background-image: url("https://wallpaperaccess.com/full/1159274.jpg");
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  color: rgb(70, 1, 70);
+  font-family: Arial light, Helvetica light;
+  font-size: 50px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 50%;
+  font-weight: lighter;
+  text-shadow: 1px 1px 2px black;
+  text-transform: uppercase;
+}
+h2 {
+  margin-top: 0%;
+  width: 100%;
+}
+
+button {
+  display: inline-block;
+}
+
+.smaller {
+  text-align: center;
+  font-family: Arial light, Helvetica light;
+  color: rgb(39, 39, 39);
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px rgb(80, 79, 79);
+  box-shadow: 5px 10px 5px black;
+  background-color: rgb(199, 198, 198);
+}
+#clock {
+  font-size: 100px;
+  text-shadow: 2px 3px 3px rgb(80, 79, 79);
+}
+#day {
+  font-size: 60px;
+  text-shadow: 2px 3px 3px rgb(80, 79, 79);
+}
+#date {
+  font-size: 60px;
+  text-shadow: 2px 3px 3px rgb(80, 79, 79);
+}
+#stp {
+  margin: 0;
+  overflow-wrap: normal;
+  font-size: 60px;
+  text-shadow: 2px 3px 3px rgb(80, 79, 79);
+  font-family: Arial light, Helvetica light;
+  color: rgb(39, 39, 39);
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px rgb(80, 79, 79);
+  min-width: 60%;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.btn {
+  margin: 10px 0px;
+  color: rgb(48, 48, 48);
+  width: 80px;
+  height: 60px;
+  box-shadow: 3px 5px 5px rgb(65, 65, 65);
+  background-color: rgb(173, 173, 173);
+  border: none;
+  border-radius: 10px;
+  font-stretch: ultra-condensed;
+  font-size: 20px;
+  text-align: center;
+  padding: 3px;
+  font-family: Arial, Helvetica;
+  outline: none;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgb(80, 79, 79);
+  margin-bottom: 10px;
+}
+.btn:hover {
+  box-shadow: 4px 7px 7px rgb(65, 65, 65);
+}
+.btn:active {
+  box-shadow: 2px 3px 3px rgb(65, 65, 65);
+}
+.btn:disabled {
+  cursor: default;
+  box-shadow: 1px 2px 2px rgb(65, 65, 65);
+  color: rgb(75, 75, 75);
+}
+
+#cont3 {
+  justify-content: center;
+}
+#cont2 {
+  box-shadow: 3px 5px 5px black;
+  background-color: rgb(199, 198, 198);
+  padding: 0%;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: fit-content;
+  min-width: 50%;
+}
+#listContainer {
+  display: flex;
+  justify-content: center;
+}
+li {
+  background-color: rgb(199, 198, 198);
+  box-shadow: 2px 3px 3px rgb(65, 65, 65);
+  font-family: Arial, Helvetica;
+  margin: 0px;
+  margin-top: 5px;
+  color: rgb(39, 39, 39);
+  padding: 2px;
+  text-align: center;
+}
+li:hover {
+  box-shadow: 3px 5px 5px rgb(65, 65, 65);
+}
+.clockContainer {
+  width: 50%;
+}
+.swContainer {
+  width: 40%;
+}
+#lists {
+  margin: 0px;
+  width: 100%;
+  padding-left: 25px;
+}
+@media (min-width: 800px) {
+  #mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 799px) {
+  .smaller {
+    width: 200%;
+  }
+  #clock {
+    font-size: 70px;
+  }
+  #date {
+    font-size: 48px;
+  }
+  #cont3 {
+    width: 125%;
+  }
+  #cont2 {
+    width: 200%;
+  }
+  #stp {
+    font-size: 40px;
+  }
+  #listContainer {
+    margin: 0px;
+    padding: 0px;
+    width: 200%;
+  }
+  #lists {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+}

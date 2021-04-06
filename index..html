@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Emre's Clock</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body >
+	<div id="mainContainer">
+	<div class="clockContainer">
+		<div class="cont1">
+			<h1>Clock
+			</h1>
+		</div>
+		<h2 class="smaller">The Time is:- <br/><span id="clock"></span></h2>
+		<h2 class="smaller">The Day is:-	<span id="day"></span> <br> on  <span id="date"></span>
+		</h2>
+	</div>
+	<div class="swContainer">
+		<h1>Stopwatch
+		</h1>
+		<div id="cont3">
+		<div id="cont2">
+		<h2 id="stp">00 : 00 : 00.00
+		</h2>
+		<div class="buttons">
+		<button class="btn start" onclick="fStart()" onclick="" id="start"><span>Start</span></button>
+		<button class="btn stop" onclick="fStop()" id="stop"><span>Stop</span></button>
+		<button class="btn lap" onclick="fLap()" id="lap"><span>Lap</span></button>
+		<button class="btn rset" onclick="fRset()" id="rset"><span>Reset</span></button>
+		</div>
+		</div>
+		<div id="listContainer">
+		<ol id="lists">
+			</ol>
+		</div>
+	</div>
+	</div>
+    <script src='/index.js'></script>
+</body>
+</html>
